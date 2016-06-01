@@ -1,0 +1,42 @@
+
+// Import resets
+//@import "recipes/normalize-scss/normalize";
+
+// Bring on the Bourbon, Neat, Bitters, Chasers, and Garnish it
+@import "recipes/bourbon/app/assets/stylesheets/bourbon";
+@import "recipes/neat/app/assets/stylesheets/neat";
+@import "ingredients/topshelf/topshelf"; //Top Shelf is where we import Bitters and Grid Variables. Refills can also be enabled for global use here.
+@import "recipes/chasers/src/chasers";
+@import "recipes/garnish/src/garnish";
+
+/* CONFIGURABLES:
+neat/settings/_visual-grid.scss - visual grid appearance & on/off
+ingredients/topshelf/_grid_variables.scss - grid settings override
+*/
+
+
+
+
+// Import Ingredients - Our main stylesheets + repeated styles used for sections
+@import "ingredients/ambiance";
+@import "ingredients/structure";
+@import "ingredients/header";
+@import "ingredients/usermenu";
+@import "ingredients/actionbar";
+
+
+// Import Specials - our individual page styles;
+
+//Import our portfolio specific page styles
+
+
+/*
+ USING REFILLS + INGREDIENTS
+
+Ingredients is our folder for additional (non boilerplate-required) styles. Refills by Thoughtbot is included in this folder.
+To use universally, uncomment / add line to ingredients/topshelf/_topshelf.scss
+
+ [  Or you can use it in individual page/element styles
+      EX: @import "../recipes/refills/accordion"  ]
+
+*/

@@ -1,0 +1,41 @@
+// TODO: Setup your site's ambiance and feel
+
+
+/*====================================
+Ambiance (colors, links, branding, etc)
+====================================*/
+
+/*------------------
+COLORS/TEXT/LINKS
+------------------*/
+
+$base-font-color: #333;
+$link: #E74C3C;
+$hover: #D14233;
+
+$main: #3F51B5;
+$main-50: #E8EAF6;
+$main-100: #C5CAE9;
+$main-200: #9FA8DA;
+$main-300: #7986CB;
+$main-400: #5C6BC0;
+$main-500: #3F51B5;
+$main-600: #3949AB;
+$main-700: #303F9F;
+$main-800: #283593;
+$main-900: #1A237E;
+
+
+a:link { color:$link; text-decoration: none; }
+a:visited {color:$link;}
+a:hover {color:$hover;}
+a:active {color:$link;}
+
+
+$sans-serif: “Open Sans”, “Helvetica Neue”, Helvetica, 'Trebuchet MS', Tahoma, Arial, sans-serif;
+$serif: Garamond, "Adobe Garamond Pro", "Hoefler Text", Palatino, Georgia, serif;
+$roboto: "Roboto", sans-serif;
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Roboto', sans-serif;
+}

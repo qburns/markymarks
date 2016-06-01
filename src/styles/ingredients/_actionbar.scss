@@ -1,0 +1,17 @@
+.action-bar {
+  height: 3rem;
+  width: 100%;
+  background: #eee;
+  clear: both;
+
+  .actions {
+    float: right;
+    padding-right: 1rem;
+
+    > li {
+      display: inline-block;
+      padding: .75rem 0 0 1rem;
+    }
+  }
+
+}

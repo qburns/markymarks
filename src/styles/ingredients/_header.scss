@@ -1,0 +1,21 @@
+#top-header {
+  @include span-columns(12);
+  background: $main;
+  height: 5rem;
+  padding: 1rem 1rem;
+
+  h1 {
+    @include span-columns(5);
+
+    @include media($medium-screen-up) {
+      @include span-columns(4);
+    }
+
+    display: block;
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: em(-1.7);
+  }
+
+
+}

@@ -1,0 +1,6 @@
+//Default outer padding so that you always have some sort of padding around your page
+
+
+@mixin outer-pad {
+  @include padding-h( flex-gutter() ); //Flex-gutter() sets same value as your gutter
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MarkyMarks</title>
+    <script type="text/javascript">
+      function triggerGoogleLoaded() {
+        setTimeout(function () {
+          window.dispatchEvent(new Event('google-loaded'));
+        }, 100);
+
+      }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=triggerGoogleLoaded"></script>
+    <!--<script src="https://apis.google.com/js/platform.js?onload=triggerGoogleLoaded"></script>-->
+    <script src="http://potenti.al/upload.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/static/bundle.js"></script>
+  </body>
+</html>
